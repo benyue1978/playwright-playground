@@ -18,7 +18,8 @@
 
 ### 1. Home Page
 
-- [ ] Verify the home page loads successfully and the logo is visible
+- [x] Verify the home page loads successfully and the logo is visible
+  - Automated test implemented: iterates all logo elements, asserts at least one is visible and has the correct src.
 - [ ] Check that the main navigation bar (Platform, Pricing, Coverage,
       Partnership, About, Resources) is visible and clickable
 - [ ] Test the "Book a demo" button navigates to the correct page
