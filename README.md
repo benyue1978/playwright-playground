@@ -25,8 +25,24 @@ ruff check .
 
 ## Run Tests
 
+You can run all tests in headless mode (default):
+
 ```shell
-pytest
+pytest --maxfail=1 --disable-warnings -v
+```
+
+Or run tests with a visible browser window (headed mode, useful for debugging UI):
+
+```shell
+pytest --headed --maxfail=1 --disable-warnings -v
+```
+
+## Playwright Codegen (Record UI Actions)
+
+You can use Playwright's codegen tool to record UI actions and generate Python test scripts:
+
+```shell
+playwright codegen https://joinhorizons.com/ --target python
 ```
 
 ## Dependency Management

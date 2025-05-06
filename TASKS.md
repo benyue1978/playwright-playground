@@ -20,8 +20,9 @@
 
 - [x] Verify the home page loads successfully and the logo is visible
   - Automated test implemented: iterates all logo elements, asserts at least one is visible and has the correct src.
-- [ ] Check that the main navigation bar (Platform, Pricing, Coverage,
+- [x] Check that the main navigation bar (Platform, Pricing, Coverage,
       Partnership, About, Resources) is visible and clickable
+  - Automated test implemented: restricts to header area, iterates all matching elements, asserts the first visible item is enabled (clickable).
 - [ ] Test the "Book a demo" button navigates to the correct page
 - [ ] Validate the display of key modules (Employer of Record, Contractor of
       Record, International Recruitment, Global Payroll, Add-ons, About company,
